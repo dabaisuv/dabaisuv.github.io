@@ -4,6 +4,8 @@ date: 2023-11-21 16:11:04
 tags:
 ---
 
+**作者：dabaisuv，原文链接：https://dabaisuv.github.io/2023/11/21/Flutter-Web-字体白框和白屏解决方案**
+
 ### 1. 字体白框解决方案
 原因是使用canvaskit渲染方式时，代码必须要fonts字体文件支持，而flutter默认会从https://fonts.google.com/ 获取对应语言的fonts，因为某网络原因，该网站访问被限制，导致一直加载不出字体。有两种解决方案。
 #### 1.1. 解决方案一
@@ -60,5 +62,3 @@ tags:
 #### 2.2. 解决方案二
 不使用canvaskit渲染，改为使用html，这样就不用下载canvaskit了，也最省心......吧。
 方法跟1.1一样。
-
-原文链接：https://dabaisuv.github.io/2023/11/21/Flutter-Web-字体白框和白屏解决方案 作者：dabaisuv
