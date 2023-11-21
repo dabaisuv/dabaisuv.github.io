@@ -60,3 +60,5 @@ tags:
 #### 2.2. 解决方案二
 不使用canvaskit渲染，改为使用html，这样就不用下载canvaskit了，也最省心......吧。
 方法跟1.1一样。
+
+原文链接：https://dabaisuv.github.io/2023/11/21/Flutter-Web-字体白框和白屏解决方案 作者：dabaisuv

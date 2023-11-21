@@ -44,3 +44,4 @@ SID也就是安全标识符（Security Identifiers），是标识用户，组和
 `net localgroup <组名> <用户名> /add` #添加用户到组
 `net localgroup <组名> <用户名> /del` #从组中踢出用户
 `net localgroup <组名> /del` #删除组
+
