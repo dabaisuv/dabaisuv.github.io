@@ -29,6 +29,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: add google verify
+        run: echo "google-site-verification:google1cf0c263dc627b3b.html" > ./public/google1cf0c263dc627b3b.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
