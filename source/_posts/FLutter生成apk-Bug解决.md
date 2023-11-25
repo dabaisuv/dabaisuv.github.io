@@ -3,7 +3,7 @@ title: FLutter生成apk Bug解决
 date: 2023-11-24 01:45:13
 tags:
 ---
-**作者：dabaisuv，原文链接：https://dabaisuv.github.io/2023/11/21/FLutter生成apk-Bug解决**
+**作者：dabaisuv，原文链接：https://dabaisuv.github.io/2023/11/24/FLutter生成apk-Bug解决**
 
 ```shell
 FAILURE: Build failed with an exception.
