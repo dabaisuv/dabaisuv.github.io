@@ -3,7 +3,7 @@ title: CTF 2024 Presented by Cyandev Write Up
 date: 2024-01-05 00:17:30
 tags:
 ---
-**作者：dabaisuv，原文链接：https://dabaisuv.github.io/2024/1/05/CTF-2024-Write-Up**
+**作者：dabaisuv，原文链接：https://dabaisuv.github.io/2024/01/05/CTF-2024-Write-Up**
 
 CTF 2024 Presented by Cyandev https://ctf.cyandev.app 的通关笔记
 
