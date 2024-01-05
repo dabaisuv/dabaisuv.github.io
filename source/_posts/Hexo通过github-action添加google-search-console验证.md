@@ -29,3 +29,5 @@ tags:
 ```
 
 **注意事项：**“验证文件”的内容中的空格得去掉，不然echo函数会出错。
+
+收录的问题和其他验证方法可以参考：https://jactorsue.github.io/blog/2018/04/how-blog-on-githubpages-can-be-searched-by-google.html
