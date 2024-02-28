@@ -39,6 +39,11 @@ sudo iptables -A FORWARD -d 192.168.8.0/24 -j ACCEPT #允许目标地址为192.1
 sudo iptables -A FORWARD -d 1.1.1.1 -j ACCEPT #允许目标地址1.1.1.1的转发（这里可以改为自己想让虚拟机能够访问的外网ip）
 ```
 * 基本上网关虚拟机就配置好了，后续根据自己的需要添加，删除或者更改目标。
+* 上面的命令是实时生效的，但是重启就会丢失，可以使用以下命令保存和恢复iptables配置
+```bash
+sudo iptables-save -f /etc/iptables.conf #这个保存地址可以更改为自己喜欢的
+sudo iptables-restore < /etc/iptables.conf #从之前保存的配置文件中恢复
+```
 
 #### 在不可信虚拟机执行(这里拿不可信虚拟机1举例，大同小异)：
 * 先使用nmtui将网卡1的ip设置为静态ip，ip地址为192.168.8.2，其他不用动，保存后重连。
@@ -46,6 +51,9 @@ sudo iptables -A FORWARD -d 1.1.1.1 -j ACCEPT #允许目标地址1.1.1.1的转�
 ```bash
 sudo route add default gw 192.168.8.1 #设置默认路由为网关虚拟机
 ```
+
+
+
 #### 参考
 * https://wooyun.js.org/drops/Iptables%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.html
 * https://wx.comake.online/doc/l71stn6d8shjct-SSD268/customer/development/software/m6-ipc/data.html
