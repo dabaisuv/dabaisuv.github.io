@@ -32,6 +32,7 @@ tags:
 
 ```bash
 sudo echo 1 > /proc/sys/net/ipv4/ip_forward #开启ip转发
+sudo iptables -v -n -L --line-number #可通过这个命令查看现有规则
 sudo iptables -P FORWARD DROP #默认不允许转发
 sudo iptables -t nat -A POSTROUTING -s 192.168.8.0/24 -j MASQUERADE #转发时更改源地址
 sudo iptables -A FORWARD -d 114.114.114.114 -j ACCEPT #允许目标地址114.114.114.114的转发（这是国内的dns服务器，你可以改成自己想要的）
