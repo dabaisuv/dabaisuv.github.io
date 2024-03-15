@@ -3,7 +3,7 @@ title: 一次X-Forwarded-For绕过ip限制
 date: 2024-03-15 19:25:05
 tags:
 ---
-
+**作者：dabaisuv，原文链接：https://dabaisuv.github.io/2024/03/15/一次X-Forwarded-For绕过ip限制**
 * 背景
   * 在进行一次web逻辑漏洞测试的时候，有个接口有请求次数限制。
 
