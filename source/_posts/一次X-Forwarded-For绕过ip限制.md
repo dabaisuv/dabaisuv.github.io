@@ -44,7 +44,6 @@ function hookAjax() {
 }
 hookAjax();
 ```
-  * 至此已绕过ip限制，定级高危。
   
 * 解决方案
   * https://totaluptime.com/kb/prevent-x-forwarded-for-spoofing-or-manipulation/
